@@ -1,0 +1,17 @@
+.buffer {
+  border: 2px rgb(172, 172, 172) solid;
+  border-top: 3px rgb(101, 101, 172) solid;
+  height: 40px;
+  width: 40px;
+  animation: buffering 1s infinite;
+  border-radius: 100%;
+}
+
+@keyframes buffering {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
